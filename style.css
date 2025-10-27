@@ -40,6 +40,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: rgb(99, 98, 98);
 }
 
 /* configurações dos Botões */
@@ -86,6 +87,11 @@ h1 {
   background-color:  #fae3f1;
   border: none;
   border-radius: 14px;
+}
+
+.rodape {
+  color: #D44DA0;
+  text-decoration: none;
 }
 
 
