@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Extensão TT</title>
+  </head>
+
+  <body>
+    <!-- Estrutura do Programa-->
+    <div class="container-pai">
+      <header class="cabecalho">
+        <img src="icons/tt-icon16.png" alt="Logo" />
+        <h1>TRANSFORME textos</h1>
+      </header>
+      <!-- Conteúdo Alunos-->
+
+      <input type="text" name="text" id="input-text" class="input-text" maxlength="500" placeholder="Digite seu texto aqui!" required/>
+
+      <div class="container-button">
+        <div class="row">
+          <button type="button" class="btn" id="btnMaiuscula">MAIÚSCULA</button>
+          <button type="button" class="btn" id="btnMinuscula">minúscula</button>
+        </div>
+        <div class="row">
+          <button type="button" class="btn" id="btnPrimeira">Capitalizar</button>
+          <button type="button" class="btn" id="btnLimpar">Limpar</button>
+        </div>
+        <div class="row-copiar">
+          <button type="button" class="btn" id="btnCopiar">Copiar</button>
+        </div>
+      </div>
+
+      <textarea name="result" class="result" id="result" placeholder="Resultado"></textarea>
+      
+      <p>Para mais informações, visite:</p>
+      <a class="rodapé" href="https://www.exemplo.com" target="_blank">rillarysousa.com.br</a>
+    </div>
+    <!-- Link do Javascript-->
+    <script src="script.js"></script>
+  </body>
+</html>
+

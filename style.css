@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* Chamando Fonte */
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.85rem;
+
+  /* Bordas View */
+  /*border: solid 1px pink;*/
+}
+
+.cabecalho {
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  align-items: end;
+}
+
+h1 {
+  align-self: flex-end;
+}
+
+/* Layout App*/
+.container-pai {
+  width: 200px;
+  height: 240px;
+
+  /* FlexBox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* configurações dos Botões */
+.container-button {
+  width: 160px;
+  /* FlexBox */
+  display: flex;
+  flex-wrap: wrap; 
+  margin-top: 5px;
+  gap: 5px;
+}
+
+.btn {
+  cursor: pointer;
+  width: 77px;
+}
+
+#btnCopiar {
+  width: 100%; /* ocupa toda a linha */
+}
+
+.row-copiar {
+  width: 160px; /* mesma largura do container-button */
+}
+
+.result {
+  resize: none;
+  margin-top: 5px;
+  width: 160px;
+  padding: 3px 0px 40px 5px;
+  margin-bottom: 5px;
+}
+
+/* Desafio*/
+/* cabeçalho */
+/* Resultado */
+/* Rodapé */
+
