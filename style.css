@@ -22,10 +22,18 @@ h1 {
   align-self: flex-end;
 }
 
+.input-text {
+  background-color: #fae3f1;
+  border-radius: 14px;
+  border: none;
+  padding: 5px;
+}
+
+
 /* Layout App*/
 .container-pai {
   width: 200px;
-  height: 240px;
+  height: 270px;
 
   /* FlexBox */
   display: flex;
@@ -47,6 +55,18 @@ h1 {
 .btn {
   cursor: pointer;
   width: 77px;
+  height: 28px; 
+  color: #fff;
+  background-color: #D44DA0;
+  border: none;
+  border-radius: 14px;
+  font-size: 0.8rem;
+
+}
+
+.btn:hover {
+  background-color: #eb0492f5; 
+  transform: scale(1.03);
 }
 
 #btnCopiar {
@@ -63,7 +83,11 @@ h1 {
   width: 160px;
   padding: 3px 0px 40px 5px;
   margin-bottom: 5px;
+  background-color:  #fae3f1;
+  border: none;
+  border-radius: 14px;
 }
+
 
 /* Desafio*/
 /* cabeçalho */
